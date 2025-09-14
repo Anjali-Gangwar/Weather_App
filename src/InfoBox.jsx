@@ -42,8 +42,8 @@ export default function InfoBox({info}){
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
           <p>Humidity: {info.humidity}</p>
           <p>Temprature: {info.temp}&deg;C</p>
-          <p>emprature_Min: {info.temp_min}&deg;C</p>
-          <p>emprature_Max: {info.temp_max}&deg;C</p>
+          <p>Min_Temp: {info.temp_min}&deg;C</p>
+          <p>Max_Temp: {info.temp_max}&deg;C</p>
           <p>Weather can be describes as <i>{info.weather} and feels like {info.feelslike}&deg;C</i></p>
         </Typography>
       </CardContent>
